@@ -18,6 +18,6 @@ def getMillisecond():
     t = time.time()
     return int(round(t * 1000))
 
-# generate repeated string
+# repeat the string to specific times
 def strRepeat(str, times):
     return str * times

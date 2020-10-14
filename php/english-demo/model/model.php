@@ -2,7 +2,7 @@
 
 class RestRequest {
 	/**
-     * the user name login platform.xpyun.net
+     * the user ID login platform.xpyun.net
      */
     var $user;
    	/**
@@ -146,7 +146,7 @@ class QueryOrderStatisRequest extends RestRequest {
      */
     var $sn;
     /**
-     * query date
+     * query date, the format should be : YY-MM-DD， e.g. 2016-09-20
      */
     var $date;
 
