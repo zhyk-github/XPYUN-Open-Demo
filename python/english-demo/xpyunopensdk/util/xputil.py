@@ -1,6 +1,6 @@
 """
- 哈稀签名
- @param source - 源字符串
+ hash sign
+ @param source - the string for sign
  @return
 """
 import hashlib
@@ -13,11 +13,11 @@ def sign(source: str):
     return signature
 
 
-# 获得毫秒数
+# get millisecond
 def getMillisecond():
     t = time.time()
     return int(round(t * 1000))
 
-# 字符串重复多次
+# generate repeated string
 def strRepeat(str, times):
     return str * times
