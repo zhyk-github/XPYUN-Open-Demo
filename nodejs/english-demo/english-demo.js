@@ -1,6 +1,6 @@
 var demo = require("./english/xpsdk-demo.js");
 
-var chinese = require("./english/printer-example.js");
+var print = require("./english/printer-example.js");
 
 // demo.addPrintersTest();
 
@@ -20,12 +20,12 @@ var chinese = require("./english/printer-example.js");
 
 // demo.xpYunPlayVoiceTest();
 
-// chinese.printFontAlign();
+// print.printFontAlign();
 
-// chinese.printFontAlignVoiceSupport();
+print.printFontAlignVoiceSupport();
 
-// chinese.printComplexReceipt();
+// print.printComplexReceipt();
 
-// chinese.printComplexReceiptVoiceSupport();
+// print.printComplexReceiptVoiceSupport();
 
-// chinese.printLabel();
+// print.printLabel();

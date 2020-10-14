@@ -1,10 +1,9 @@
-//引入模块
 
 var crypto = require('crypto');
 
 /**
- * 哈稀签名
- * @param signSource - 源字符串
+ * hash sign
+ * @param signSource - the string for sign
  * @return
  */
 function sign(signSource) {
@@ -14,16 +13,16 @@ function sign(signSource) {
 }   
 
 /**
- *获得毫秒数
+ * get millisecond
 */
 function getMillisecond() {
     return new Date().getTime();
 } 
 
 /**
- * 获得字符串重复
- * @param str - 要进行重复的字符串
- * @param repeatTimes - 重复次数
+ * generate repeated string
+ * @param str - the source string
+ * @param repeatTimes - repeated times
 */
 function strRepeat(str, repeatTimes) {
     len = repeatTimes + 1  

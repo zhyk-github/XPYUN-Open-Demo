@@ -96,7 +96,7 @@ async function updPrinterTest() {
 	request.generateSign();
 
 	//*必填*：打印机名称
-	request.name = "X58C111";
+	request.name = "X58C112";
 
 	//打印机流量卡号码
 	request.cardno = "13022223333";

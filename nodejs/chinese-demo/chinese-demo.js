@@ -1,4 +1,5 @@
 var demo = require("./chinese/xpsdk-demo.js");
+var print = require("./chinese/printer-example.js");
 
 // demo.addPrintersTest();
 
@@ -6,7 +7,7 @@ var demo = require("./chinese/xpsdk-demo.js");
 
 // demo.delPrintersTest();
 
-// demo.updPrinterTest();
+demo.updPrinterTest();
 
 // demo.xpYunDelPrinterQueueTest();
 
@@ -18,12 +19,12 @@ var demo = require("./chinese/xpsdk-demo.js");
 
 // demo.xpYunPlayVoiceTest();
 
-// chinese.printFontAlign();
+// print.printFontAlign();
 
-// chinese.printFontAlignVoiceSupport();
+// print.printFontAlignVoiceSupport();
 
-// chinese.printComplexReceipt();
+// print.printComplexReceipt();
 
-// chinese.printComplexReceiptVoiceSupport();
+// print.printComplexReceiptVoiceSupport();
 
-chinese.printLabel();
+// print.printLabel();

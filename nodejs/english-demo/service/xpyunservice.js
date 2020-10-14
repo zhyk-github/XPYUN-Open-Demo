@@ -13,7 +13,7 @@ function xpyunPostJson(url, json) {
 }
 
 /**
- * 1.批量添加打印机
+ * add printers 
  * @param restRequest
  * @return
  */
@@ -31,7 +31,8 @@ function xpYunAddPrinters(restRequest) {
 }	
 
 /**
- * 2.设置打印机语音类型
+ * set voice type for printer
+ * voice type: 0:live big, 1:live middle, 2:live small, 3:beep, 4:muted
  * @param restRequest
  * @return
  */
@@ -51,8 +52,8 @@ function xpYunSetVoiceType(restRequest) {
 }  
 
 /**
- * 3.打印小票订单
- * @param restRequest - 打印订单信息
+ * print receipt
+ * @param restRequest
  * @return
  */
 function xpYunPrint(restRequest) {
@@ -71,8 +72,8 @@ function xpYunPrint(restRequest) {
 }	
 
 /**
- * 3.打印标签订单
- * @param restRequest - 打印订单信息
+ * print label
+ * @param restRequest
  * @return
  */
 function xpYunPrintLabel(restRequest) {
@@ -92,7 +93,7 @@ function xpYunPrintLabel(restRequest) {
 }   
 
 /**
- * 4.批量删除打印机
+ * delete printer in batch
  * @param restRequest
  * @return
  */
@@ -111,7 +112,7 @@ function xpYunDelPrinters(restRequest) {
 
 
 /**
- * 5.修改打印机信息
+ * modify information of your printer
  * @param restRequest
  * @return
  */
@@ -133,7 +134,7 @@ function xpYunUpdatePrinter(restRequest) {
 }   
 
 /**
- * 6.清空待打印队列
+ * delete printing task queue of a printer
  * @param restRequest
  * @return
  */
@@ -152,7 +153,7 @@ function xpYunDelPrinterQueue(restRequest) {
 }    
 
 /**
- * 7.查询订单是否打印成功
+ * check if the order is printed successfully
  * @param restRequest
  * @return
  */
@@ -172,7 +173,7 @@ function xpYunQueryOrderState(restRequest) {
 }   
 
 /**
- * 8.查询打印机某天的订单统计数
+ * query order statistics for printer on a certain day
  * @param restRequest
  * @return
  */
@@ -193,10 +194,10 @@ function xpYunQueryOrderStatis(restRequest) {
 }
 
 /**
- * 9.查询打印机状态
+ * query status of printer 
  *
- * 0、离线 1、在线正常 2、在线不正常
- * 备注：异常一般是无纸，离线的判断是打印机与服务器失去联系超过30秒
+ * 0 indicates offline status; 1 indicates online and normal status; 2 indicates online and abnormal status
+ * Remarks: Abnormal status means lack of paper, if the printer has been out of contact with the server for more than 30s, it can be confirmed to be offline status.
  * @param restRequest
  * @return
  */
@@ -215,8 +216,8 @@ function xpYunQueryPrinterStatus(restRequest) {
 }    
 
 /**
- * 10.云喇叭播放语音
- * @param restRequest - 播放语音信息
+ * cloud speaker play voice
+ * @param restRequest
  * @return
  */
 function xpYunPlayVoice(restRequest) {
