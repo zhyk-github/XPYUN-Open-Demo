@@ -8,7 +8,7 @@ USER_KEY = "d572cab55de44e52b2e6214f7a012cb7"
 OK_PRINTER_SN = "35L8WLAHB12BD48"
 
 
-# 小票打印字体对齐样例，不支持语音播报
+# 小票打印字体对齐样例，不支持金额播报
 # 注意：对齐标签L C R CB 请勿嵌套使用，嵌套使用内层标签有效，外层失效；
 # 同一行请勿使用多个对齐标签，否则只有最后一个对齐标签有效
 
@@ -95,7 +95,7 @@ BOLD标签：<BOLD>字体加粗<BR></BOLD>'''
     print(result.content.data)
 
 
-# 小票打印字体对齐样例，支持语音播报
+# 小票打印字体对齐样例，支持金额播报
 # 注意：对齐标签L C R CB 请勿嵌套使用，嵌套使用内层标签有效，外层失效；
 # 同一行请勿使用多个对齐标签，否则只有最后一个对齐标签有效
 
@@ -274,7 +274,7 @@ def printComplexReceipt():
     print(result.content.data)
 
 
-# 小票打印综合排版样例，不支持语音播报
+# 小票打印综合排版样例，不支持金额播报
 # 58mm打印机一行可打印机32个字符
 
 def printComplexReceiptVoiceSupport():
