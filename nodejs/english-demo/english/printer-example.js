@@ -8,7 +8,7 @@ const USER_KEY = 'd572cab55de44e52b2e6214f7a012cb7';
 const OK_PRINTER_SN = '35L8WLAHB12BD48';
 
 /**
- * sample for receipt using font and alignment in nest,don't support voice broadcast
+ * sample for receipt using font and alignment in nest,don't support money broadcast
  * notice: 1. do not nested use alignment elements like L C R CB. for example, <L><C>your text<C/><L/>,
  * element C inside will be valid while element L will be invalid
  * 2. do not use multiple alignment elements in the same. for example, <L>left<L/><C>center<C/>,
@@ -105,7 +105,7 @@ BOLD element: <BOLD>bold font<BR></BOLD>`
 }
 
 /**
- * sample for receipt using font and alignment in nest,support voice broadcast
+ * sample for receipt using font and alignment in nest,support money broadcast
  * notice: 1. do not nested use alignment elements like L C R CB. for example, <L><C>your text<C/><L/>,
  * element C inside will be valid while element L will be invalid
  * 2. do not use multiple alignment elements in the same. for example, <L>left<L/><C>center<C/>,
@@ -218,7 +218,7 @@ BOLD element: <BOLD>bold font<BR></BOLD>`
 }
 
 /**
- * complex alignment sample for note,don't support voice broadcast
+ * complex alignment sample for note,don't support money broadcast
  * notice: 58mm printer can print 32 characters per line
  */
 async function printComplexReceipt() {
@@ -300,7 +300,7 @@ async function printComplexReceipt() {
 }
 
 /**
- * complex alignment sample for note,support voice broadcast
+ * complex alignment sample for note,support money broadcast
  * notice: 58mm printer can print 32 characters per line
  */
 
