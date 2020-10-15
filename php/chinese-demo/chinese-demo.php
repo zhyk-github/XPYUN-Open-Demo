@@ -20,9 +20,6 @@ printFontAlign();
 
 // setVoiceTypeTest();
 
-// printTest();
-
-//   printLabelTest();
 
   // delPrintersTest();
 

@@ -13,7 +13,7 @@ function xpyunPostJson(url, json) {
 }
 
 /**
- * add printers 
+ * add printers in batch
  * @param restRequest
  * @return
  */
