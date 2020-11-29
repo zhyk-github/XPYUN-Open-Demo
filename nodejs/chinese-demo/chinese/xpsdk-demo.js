@@ -4,7 +4,7 @@ var service = require('../service/xpyunservice.js');
 
 const USER_NAME = '362657746@qq.com';
 const USER_KEY = 'd572cab55de44e52b2e6214f7a012cb7';
-const OK_PRINTER_SN = '35L8WLAHB12BD48';
+const OK_PRINTER_SN = 'XXXXXXXXXXXXXXXXXXXX';
 
 //1.批量添加打印机
 async function addPrintersTest()

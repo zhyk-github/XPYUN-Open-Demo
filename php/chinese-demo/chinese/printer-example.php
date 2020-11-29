@@ -7,7 +7,7 @@ include_once 'service/xpyunservice.php';
 
 define('USER_NAME', '362657746@qq.com');
 define('USER_KEY', 'd572cab55de44e52b2e6214f7a012cb7');
-define('OK_PRINTER_SN', '35L8WLAHB12BD48');
+define('OK_PRINTER_SN', 'XXXXXXXXXXXXXXXXXXXX');
 
 /**
  * 小票打印字体对齐样例，不支持金额播报

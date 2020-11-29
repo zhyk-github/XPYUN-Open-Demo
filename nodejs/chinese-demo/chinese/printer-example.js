@@ -5,7 +5,7 @@ var formatter = require('../formatter/note-formatter.js');
 
 const USER_NAME = '362657746@qq.com';
 const USER_KEY = 'd572cab55de44e52b2e6214f7a012cb7';
-const OK_PRINTER_SN = '35L8WLAHB12BD48';
+const OK_PRINTER_SN = 'XXXXXXXXXXXXXXXXXXXX';
 
 /**
  * 小票打印字体对齐样例，不支持金额播报

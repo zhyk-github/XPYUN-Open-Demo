@@ -22,9 +22,9 @@ const USER_KEY = 'd572cab55de44e52b2e6214f7a012cb7';
  * Pay attention to replace the printer number when testing the ticket machine and labeling machine
  * How to get the print number: There will be a QR code with PID at the bottom of the printer, and a string of characters after the PID is the printer number
  * <p>
- * Currently [20RZ5MQX2X39049] is just an example, need to be modified before use
+ *
  */
-const OK_PRINTER_SN = '35L8WLAHB12BD48';
+const OK_PRINTER_SN = 'XXXXXXXXXXXXXXXXXXXX';
 
 //1.add printers in batch
 async function addPrintersTest()

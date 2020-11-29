@@ -4,7 +4,7 @@ import xpyunopensdk.service.xpyunservice as service
 
 USER_NAME = "362657746@qq.com"
 USER_KEY = "d572cab55de44e52b2e6214f7a012cb7"
-OK_PRINTER_SN = "35L8WLAHB12BD48"
+OK_PRINTER_SN = "XXXXXXXXXXXXXXXXXXXX"
 
 
 # 批量添加打印机

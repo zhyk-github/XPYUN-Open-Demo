@@ -5,9 +5,9 @@ import xpyunopensdk.formatter.note_formatter as formatter
 
 USER_NAME = "362657746@qq.com"
 USER_KEY = "d572cab55de44e52b2e6214f7a012cb7"
-OK_PRINTER_SN = "35L8WLAHB12BD48"  # 小票机
+OK_PRINTER_SN = "XXXXXXXXXXXXXXXXXXXX"  # 小票机
 
-#OK_PRINTER_SN = "30YKDYCYJTA6F4B"  # 标签机
+#OK_PRINTER_SN = "XXXXXXXXXXXXXXXXXXXX"  # 标签机
 
 
 # sample for receipt using font and alignment in nest,don't support money broadcast
